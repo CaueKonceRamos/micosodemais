@@ -1,0 +1,53 @@
+/* Definições gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo do título */
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/* Contêiner dos botões */
+.button-container {
+    position: relative;
+}
+
+/* Estilo comum para os botões */
+button, a {
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Animação suave */
+}
+
+/* Estilos específicos do botão "Sim" */
+a {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #45a049;
+}
+
+/* Estilos específicos do botão "Não" */
+button {
+    background-color: #f44336; /* Vermelho */
+    color: white;
+}
+
+button:hover {
+    background-color: #e53935;
+}
